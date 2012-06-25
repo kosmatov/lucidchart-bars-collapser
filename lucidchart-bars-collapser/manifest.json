@@ -2,7 +2,7 @@
     "name": "LucidCharts bars collapser",
     "version": "0.1",
     "description": "Remove menubar, tabbar, footerbar & \"try paid\" message from document page",
-    "permissions": ["tabs", "https://www.lucidchart.com/*"],
+    "permissions": ["https://www.lucidchart.com/*"],
     "content_scripts": [{
         "matches": ["https://www.lucidchart.com/documents/*"],
         "js": ["jquery-1.7.2.min.js", "plugin.js"],
