@@ -14,12 +14,14 @@
 
                 $('.menu-bar, .tab-bar, .gui-footer').hide();
                 $('.gui-bottom-container').css({top: 25, bottom: 0});
+                $('.option-bar + .option-bar-input').css({top: 1});
             }
 
             var expand = function () {
 
                 $('.gui-bottom-container').css({top: 85, bottom: 25});
                 $('.menu-bar, .tab-bar, .gui-footer').show();
+                $('.option-bar + .option-bar-input').css({top: 58});
             }
 
             $('div.gui-container > div.option-bar').after(
@@ -44,7 +46,15 @@
 
                         }).click()
                     )
-                ).css({position: 'absolute', top: 1, right: 5, display: 'block', textAlign: 'center', cursor: 'pointer'})
+                ).css({
+                    position: 'absolute',
+                    top: 1,
+                    right: 5,
+                    display: 'block',
+                    textAlign: 'center',
+                    cursor: 'pointer',
+                    zIndex: 10
+                })
             );
 
             setTimeout(function () {$('div.ubergrowl-container').remove()}, 1000);
