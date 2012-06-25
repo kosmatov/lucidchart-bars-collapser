@@ -1,5 +1,5 @@
 {
-    "name": "LucidCharts bars collapser",
+    "name": "Lucidchart bars collapser",
     "version": "0.1",
     "description": "Remove menubar, tabbar, footerbar & \"try paid\" message from document page",
     "permissions": ["https://www.lucidchart.com/*"],
