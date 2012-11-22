@@ -21,7 +21,7 @@
 
                 $('.gui-bottom-container').css({top: 85, bottom: 25});
                 $('.menu-bar, .tab-bar, .gui-footer').show();
-                $('.option-bar + .option-bar-input').css({top: 58});
+                $('.option-bar + .option-bar-input').css({top: 108});
             }
 
             $('div.gui-container > div.option-bar').after(
