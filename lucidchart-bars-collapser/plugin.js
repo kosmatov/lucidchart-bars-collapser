@@ -53,7 +53,7 @@
                     display: 'block',
                     textAlign: 'center',
                     cursor: 'pointer',
-                    zIndex: 10
+                    zIndex: 1
                 })
             );
 
